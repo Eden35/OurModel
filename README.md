@@ -1,4 +1,4 @@
-# Spatially Adaptive Uncertainty Modeling for Robust Medical Image Segmentation
+# Uncertainty Locates, Outcome Decides: Evidence-Guided Selective Repair for Medical Image Segmentation
 
 ## Requirements
 
