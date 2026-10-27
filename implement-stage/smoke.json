@@ -1,0 +1,15 @@
+{
+  "base_forward": "passed",
+  "full_forward": "passed",
+  "edge_regions": "passed",
+  "zero_residual_identity": "passed",
+  "shape": [
+    1,
+    2,
+    65,
+    81
+  ],
+  "selected_regions": 26,
+  "losses_finite": true,
+  "synthetic_data_only": true
+}

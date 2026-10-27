@@ -1,0 +1,7 @@
+{
+  "status": "SWEEP_UNAVAILABLE",
+  "verdict": null,
+  "undeclared": null,
+  "semantic_undeclared": null,
+  "reason": "No external Codex reviewer MCP endpoint is exposed in this session. Local executor tests are recorded separately and are not an independent cross-model review."
+}
