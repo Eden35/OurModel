@@ -7,7 +7,6 @@ This repository now contains the network described in the supplied Methods secti
 - 16x16 Otsu-selected regions with self-excluding within-image reference attention;
 - shared residual U-Net repair and a Gain–Harm acceptance router.
 
-完整中文使用说明见 [论文网络更新说明.md](论文网络更新说明.md)。
 
 ## Environment
 
@@ -75,4 +74,3 @@ with torch.no_grad():
     mask = probabilities.argmax(1)
 ```
 
-Ground-truth masks are required only for losses during training/evaluation, never by the inference forward path. Use `return_details=True` for initial/candidate/final probabilities, selected/accepted regions, outcome estimates and reference weights. `set_stage(1/2/3)` configures training; instantiate a fresh model for full inference or use the trainer's `evaluate` function.
